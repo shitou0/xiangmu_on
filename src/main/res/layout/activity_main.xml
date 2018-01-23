@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/draw"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/radio_group"></FrameLayout>
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_shouye"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="我"
+                android:textColor="#000000"
+                android:textSize="21dp" />
+
+            <RadioButton
+                android:id="@+id/rb_xiaoxi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="的"
+                android:textColor="#000000"
+                android:textSize="21dp" />
+            <RadioButton
+                android:id="@+id/rb_jiahao"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:textSize="29dp"
+                android:textColor="#FF0000"
+                android:text="❤"
+                android:gravity="center"
+                 />
+            <RadioButton
+                android:id="@+id/rb_xiazai"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="一"
+                android:textColor="#000000"
+                android:textSize="21dp" />
+
+            <RadioButton
+                android:id="@+id/rb_wode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="家"
+                android:textColor="#000000"
+                android:textSize="21dp" />
+
+        </RadioGroup>
+    </RelativeLayout>
+<!--侧滑菜单-->
+<LinearLayout
+    android:id="@+id/menu"
+    android:layout_width="260dp"
+    android:orientation="vertical"
+    android:layout_gravity="start"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/xin2"
+        android:id="@+id/draw_img"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/draw_list"
+        android:layout_marginLeft="60dp"
+        ></ListView>
+
+</LinearLayout>
+</android.support.v4.widget.DrawerLayout>
+

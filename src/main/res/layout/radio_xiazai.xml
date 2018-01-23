@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/xiazai_edit_sousuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="19dp"
+        android:hint="很难遇到的一个机会，千载难逢！"
+        />
+    <Button
+        android:id="@+id/xiazai_btn_queren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜搜搜"/>
+
+</LinearLayout>

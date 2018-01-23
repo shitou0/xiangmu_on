@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<com.handmark.pulltorefresh.library.PullToRefreshGridView
+    android:id="@+id/beijing_pull"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    ptr:ptrAnimationStyle="flip"
+    ptr:ptrDrawable="@drawable/default_ptr_flip"
+    ptr:ptrHeaderBackground="#383838"
+    ptr:ptrHeaderTextColor="#FFFFFF"
+    ></com.handmark.pulltorefresh.library.PullToRefreshGridView>
+    <!--<GridView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--&gt;</GridView>-->
+
+</LinearLayout>
